@@ -1,0 +1,49 @@
+# QPKI-SmartHome — Python Dependencies
+# Install: pip install -r requirements.txt
+# Python >= 3.9
+
+# Deep learning
+torch==2.1.0
+torchvision==0.16.0
+
+# Machine learning
+scikit-learn==1.3.2
+numpy==1.24.4
+pandas==2.1.3
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Data download
+kaggle==1.5.16
+requests==2.31.0
+tqdm==4.66.1
+
+# Compression (Zstandard, Section 4.2)
+zstandard==0.22.0
+
+# Cryptography — post-quantum (liboqs Python bindings, Section 4.1)
+# ML-KEM (FIPS 203) and ML-DSA (FIPS 204) are accessed via liboqs
+liboqs-python==0.8.0
+
+# Certificate handling (X.509 / DER, Section 4.2)
+cryptography==41.0.7
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+
+# TensorBoard logging (train.py)
+tensorboard==2.15.1
+
+# Jupyter notebook (demo.ipynb)
+jupyter==1.0.0
+notebook==7.0.6
+ipywidgets==8.1.1
+
+# Utilities
+pyyaml==6.0.1
+joblib==1.3.2
+scipy==1.11.4
+
+# Optional: hardware interface (MCU performance measurement)
+# pyserial==3.5       # uncomment for STM32 UART logging
